@@ -345,6 +345,7 @@ body {
     display: flex;
 }
 
+
 .menu-list:nth-of-type(5):hover .mega-box {
     right: 0;
 
@@ -375,7 +376,19 @@ body {
 .mega-item:last-of-type {
     margin-right: 0;
 }
-
+.menu_list_last:hover .mega-box:before {
+    right: 67px;
+    left: auto;
+    }
+.menu_list_prelast:hover .mega-box:before {
+    right: 67px;
+    left: auto;
+    }
+.menu_list_preprelast:hover .mega-box:before {
+    right: 67px;
+    left: auto;
+    }
+    
 .offers-box {
     display: flex;
     margin-top:98px;
@@ -721,19 +734,23 @@ font-style: normal;
 
 .subscription {
 margin-top: 35px;
+display: flex;
 }
 
 .email {
+    display: block;
     padding: 18px 0 18px 15px;
     background-color: #e1e1e1;
     margin-left: 15px;
-    border-radius: 23px;
+    border-radius: 23px 0 0 23px;
+
 }
 .subscribe_button {
+    display: block;
     padding: 18px 20px 18px 21px;
     background-color: #e1e1e1; 
     margin-right: 20px;
-    border-radius: 23px;
+    border-radius: 0 23px 23px 0;
     
     
 }
