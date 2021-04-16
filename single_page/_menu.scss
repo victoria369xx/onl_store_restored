@@ -72,6 +72,11 @@
 .menu-list:nth-of-type(7):hover .mega-box {
     right: 0;
 }
+.menu_list_last:hover .mega-box:before {
+    right:67px;
+    left:auto;
+}
+
 
 .mega-list {
     list-style-type: none;
