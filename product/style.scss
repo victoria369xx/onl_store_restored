@@ -1,0 +1,46 @@
+* {
+    margin:0;
+    padding: 0;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+@import url(_header.scss);
+@import url(_menu.scss);
+@import url(_breadcrump.scss);
+@import url(_subscription.scss);
+@import url(_footer.scss);
+@import url(_secondfooter.scss);
+
+.order_details {
+    margin-top: 90px;
+}
+ 
+.accordeon {
+    width: 1140px;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+}
+.accordeon_heading {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    color: #222222;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.register_flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 79px;
+}
+.login {
+    margin-right: 300px;
+}
+
+.subscribe {
+    margin-top: 93px;
+}
