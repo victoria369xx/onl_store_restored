@@ -1,0 +1,33 @@
+.banner_bottom_offers {
+    display: flex;
+    height: 341px;
+    background-color: #222224;
+    padding-right: 35px;
+}
+
+.banner_offer_pic {
+    display: block;
+    padding-right: 33px;
+    padding-bottom: 45px;
+    box-sizing: border-box;
+}
+
+.banner_offer {
+    display: flex;
+    padding-top: 55px;
+    padding-left: 35px;
+    box-sizing: border-box;
+}
+
+.banner_offer_text {
+    width:220px;
+    color: #fff;
+}
+.banner_offer_text>p {
+    padding-top: 15px;
+    box-sizing: border-box;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fbfbfb;
+}
