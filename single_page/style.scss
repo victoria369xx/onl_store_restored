@@ -1,3 +1,9 @@
+@import url(_header.css);
+@import url(_menu.css);
+@import url(_subscription.css);
+@import url(_footer.css);
+@import url(_secondfooter.css);
+
 * {
     margin:0;
     padding:0;
@@ -10,12 +16,6 @@ body {
     max-width: 1140px;
     margin: 0 auto;
 }
-
-@import url(_header.scss);
-@import url(_menu.scss);
-@import url(_subscription.scss);
-@import url(_footer.scss);
-@import url(_secondfooter.scss);
 
 .nav_bread {
     background-color:#f8f3f4 ;
